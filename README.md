@@ -2,7 +2,7 @@
 
 **Running Headless Raspberry Pi OS (Lite) on a Raspberry Pi 3 Model B+**
 <br />
-**Board used is 1.3" SPI Colour Square LCD (240x240) Breakout bought on Aliexpress**
+**Primary screen used is 1.3" SPI Colour Square LCD (240x240) Breakout bought on Aliexpress**
 <br />
 <br />
 For RPi image preparations, see the following link [RPi OS bullsye setup](https://www.raspberrypi.com/news/raspberry-pi-bullseye-update-april-2022/)
@@ -16,9 +16,9 @@ In raspi-config -> 3) Interface Options -> SPI -> choose **YES** <br />
 sudo apt-get update
 sudo apt-get install python3-rpi.gpio python3-spidev python3-pip python3-pil python3-numpy
 ```
-
-Use the code **testImage.py** for initial tests. <br />
-Be sure that your test image (ex. 'cat.jpg') is in the same folder as the code. <br />
+3 test codes are included. **test240x240.py** and **test240x280.py** illustrate showing a jpeg image on different sized screens. **testGif.py** illustrates using an animated gif on a 240x240 screen. <br /> 
+Use the code **test240x240.py** for initial tests. <br />
+Be sure that your test images (ex. 'cat.jpg') are in the **images** folder, located in the same folder as the code. <br />
 Launch the code as such:
 
 ```shell
