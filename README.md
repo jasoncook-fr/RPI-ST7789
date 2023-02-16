@@ -10,7 +10,7 @@ For RPi image preparations, see the following link [RPi OS bullsye setup](https:
 <br />
 In raspi-config -> 3) Interface Options -> SPI -> choose **YES** <br />
 
-## Install Dependencies:
+### Install Dependencies:
 
 ```shell
 sudo apt-get update
@@ -18,7 +18,9 @@ sudo apt-get install python3-rpi.gpio python3-spidev python3-pip python3-pil pyt
 ```
 3 test codes are included. **test240x240.py** and **test240x280.py** illustrate showing a jpeg image on different sized screens. **testGif.py** illustrates using an animated gif on a 240x240 screen. <br /> 
 <br />
-###FIRST TEST
+
+###FIRST TEST:
+
 Use the code **test240x240.py** . <br />
 Be sure that your test images (ex. 'cat.jpg') are in the **images** folder, located in the same folder as the code. <br />
 Launch the code as such:
@@ -38,5 +40,6 @@ python testImage.py
 | CS            | 7        | SPI0 CE1         |
 
 ### References: 
+
 - [Techtronic : Getting Started with RPI and ST7789](https://techatronic.com/st7789-raspberry-pi/) : Pulled test code here and modified it
 - [Pimoroni st7789-python on github](https://github.com/pimoroni/st7789-python) : Took notes from their examples, notably the GIF.py example. The examples assume you are using their Garden Board Breakout thing. I don't have this. 
