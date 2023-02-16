@@ -36,5 +36,5 @@ python testImage.py
 | CS            | 7        | SPI0 CE1         |
 
 ### References: 
-[Techtronic : Getting Started with RPI and ST7789](https://techatronic.com/st7789-raspberry-pi/) : Pulled test code here and modified it
-[Pimoroni st7789-python on github](https://github.com/pimoroni/st7789-python) : Took notes from their examples, notably the GIF.py example. The examples assume you are using their Garden Board Breakout thing. I don't have this. 
+- [Techtronic : Getting Started with RPI and ST7789](https://techatronic.com/st7789-raspberry-pi/) : Pulled test code here and modified it
+- [Pimoroni st7789-python on github](https://github.com/pimoroni/st7789-python) : Took notes from their examples, notably the GIF.py example. The examples assume you are using their Garden Board Breakout thing. I don't have this. 
