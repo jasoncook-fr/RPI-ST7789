@@ -1,4 +1,4 @@
-# RGB TFT Screen ST7789 & Rapsberry Pi
+# ST7789 RGB Display & Raspberry Pi
 
 **Running Headless Raspberry Pi OS (Lite) on a Raspberry Pi 3 Model B+**
 <br />
@@ -29,7 +29,7 @@ Be sure that your test images (ex. 'cat.jpg') are in the **images** folder, loca
 ## Launch the code as such:
 
 ```shell
-python testImage.py
+python test240x240.py
 ```
 
 | Screen Pins   | RPI GPIO | RPI Pin Function |
